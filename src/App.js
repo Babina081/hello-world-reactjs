@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div className="App">
         <LifeCycleA></LifeCycleA>
-
+        <h1>Hello</h1>
         {/* <Form></Form> */}
 
         {/* <h1 className="error">Error</h1>
@@ -61,6 +61,7 @@ class App extends Component {
         {/* <Message></Message> */}
 
         {/* <Counter></Counter> */}
+        <p>this is check file</p>
       </div>
     );
   }
