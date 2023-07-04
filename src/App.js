@@ -26,6 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <PureComp></PureComp>
 
         {/* <FragmentDemo></FragmentDemo>
