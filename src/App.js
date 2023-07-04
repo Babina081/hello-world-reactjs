@@ -18,13 +18,21 @@ import './appStyles.css';
 import styles from './appStyles.module.css';
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import PureComp from './components/PureComp';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <LifeCycleA></LifeCycleA>
-        <h1>Hello</h1>
+        <PureComp></PureComp>
+
+        {/* <FragmentDemo></FragmentDemo>
+        <Table></Table> */}
+
+        {/* <LifeCycleA></LifeCycleA> */}
+
         {/* <Form></Form> */}
 
         {/* <h1 className="error">Error</h1>
@@ -61,7 +69,6 @@ class App extends Component {
         {/* <Message></Message> */}
 
         {/* <Counter></Counter> */}
-        <p>this is check file</p>
       </div>
     );
   }
